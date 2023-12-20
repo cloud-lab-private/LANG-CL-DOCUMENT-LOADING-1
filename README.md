@@ -18,6 +18,7 @@ stay in the LangChain ecosystem even if a third party solution is required to in
     - look for the "TODO" comments, which will specify the requirements for completing the lab
 - DO NOT modify ```src/tests/test_lab.py```, as it contains the tests that you must pass to complete the lab
     - you can consider your lab complete when every test passes
+- DO NOT modify any content in ```resources```: the documents are needed to complete the lab
 
 ### Notes and resources
 - LangChain documentation on document loaders can be found [here](https://python.langchain.com/docs/modules/data_connection/document_loaders/): look through the documentation if you need more assistance
