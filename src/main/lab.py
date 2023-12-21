@@ -12,7 +12,7 @@
 """
 
 from langchain.document_loaders import TextLoader
-loader = TextLoader("resources/lab_docs/simple_text.txt")
+loader = TextLoader("src/resources/lab_docs/simple_text.txt")
 doc = loader.load()
 print(doc)
 
@@ -32,7 +32,7 @@ from langchain.document_loaders import CSVLoader, DirectoryLoader
     other than hidden files are returned, so if you need to filter out files that you don't want to load you
     have to provide an argument for the "glob" parameter
 """
-loader = DirectoryLoader("resources/genres_organized", show_progress=True, loader_cls=CSVLoader, glob="**/*.csv")
+loader = DirectoryLoader("src/resources/genres_organized", show_progress=True, loader_cls=CSVLoader, glob="**/*.csv")
 docs = loader.load()
 print(docs, end="\n\n")
 

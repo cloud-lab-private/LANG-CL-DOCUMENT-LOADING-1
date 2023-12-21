@@ -14,7 +14,7 @@ stay in the LangChain ecosystem even if a third party solution is required to in
 # Document Loaders Lab
 
 ### Files to modify
-- you will be directly modifying ```src/mainlab.py```
+- you will be directly modifying ```src/main/lab.py```
     - look for the "TODO" comments, which will specify the requirements for completing the lab
 - DO NOT modify ```src/tests/test_lab.py```, as it contains the tests that you must pass to complete the lab
     - you can consider your lab complete when every test passes
