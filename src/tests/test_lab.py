@@ -1,6 +1,6 @@
 import unittest
 
-from main.lab import load_a_pdf_file, load_a_text_file, load_csv_files_only_from_directory
+from src.main.lab import load_a_pdf_file, load_a_text_file, load_csv_files_only_from_directory
 
 class LangChainDocumentLoaderTest(unittest.TestCase):
     
